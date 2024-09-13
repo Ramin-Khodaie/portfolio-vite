@@ -9,7 +9,6 @@ function Header() {
           <Link  to="/">
             Ramin Khodaie
           </Link>
-
         </li>
         <li><Link className='block' to="#projects">Projects</Link></li>
         <li><Link className='block' to="/about">About</Link></li>
