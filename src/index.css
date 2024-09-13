@@ -14,3 +14,12 @@
   --mono: "Oxygen Mono", monospace;
   --font-size: 1.3rem;
 }
+
+body{
+  margin: 0;
+  padding: 0;
+  font-size: var(--font-size);
+  font-family: var(--sans);
+  background-color: var(--black);
+  color: var(--white)    
+}

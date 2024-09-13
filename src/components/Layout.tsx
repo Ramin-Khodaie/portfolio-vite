@@ -1,12 +1,19 @@
-import { Outlet } from 'react-router-dom'
+import { Outlet, useLocation } from 'react-router-dom'
 import Header from './Header'
 import Footer from './Footer'
+
 function Layout() {
+
+    const location = useLocation();
+
     return (
-        <div>
+        <div className='h-screen flex flex-col'>
             <Header />
-            <Outlet />
-            <Footer />
+            <div className='flex-1'>
+                <Outlet />
+            </div>
+            {location.pathname !== '/contact' && <Footer />}
+
         </div>
     )
 }
