@@ -1,0 +1,18 @@
+{
+  "projects": [
+    {
+      "title": "Feed-A-Star-Mole Game",
+      "heading": "Bootcamp Project",
+      "description": "Description of the project. This should be fairly concise while also describing the key components that you developed or worked on. It can be as long as you need it to be but should at least be a few sentences long. Be sure to include specific links anywhere in the description. A link looks like this, and multiple links look like this and like this.",
+      "technologies": ["HTML", "CSS", "SVG"],
+      "image":"https://cdn.sanity.io/images/tlr8oxjg/production/d63904e726e42ae2491c29106065e9762dbcccde-1456x816.png?w=3840&q=100&fit=clip&auto=format"
+    },
+    {
+        "title": "Wall of Wonder",
+        "heading": "Latest Project",
+        "description": "Description of the project. This should be fairly concise while also describing the key components that you developed or worked on. It can be as long as you need it to be but should at least be a few sentences long. Be sure to include specific links anywhere in the description. A link looks like this, and multiple links look like this and like this.",
+        "technologies": ["HTML", "CSS", "JS"],
+        "image":"https://graduate.northeastern.edu/resources/wp-content/uploads/sites/4/2020/05/iStock-1187114666.jpg"
+    }
+  ]
+}

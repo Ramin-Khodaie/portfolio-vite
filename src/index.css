@@ -23,3 +23,13 @@ body{
   background-color: var(--black);
   color: var(--white)    
 }
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
